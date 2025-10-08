@@ -6,6 +6,8 @@ import NovuInbox from "./components/NovuInbox.vue";
   <div>
     <NuxtRouteAnnouncer />
     <!-- <NuxtWelcome /> -->
-    <NovuInbox />
+    <ClientOnly>
+      <NovuInbox />
+    </ClientOnly>
   </div>
 </template>
